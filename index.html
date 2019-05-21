@@ -10,6 +10,9 @@
     <title>Litoral centro</title>
 </head>
 <style type="text/css">
+    body{
+        background: #6ec8fc;
+    }
     * {
         margin: 0 auto;
         padding: 0 auto;
@@ -29,28 +32,23 @@
     header {
         background: #028ddd;
         width: 100vw;
-        height: 10vh;
+        height: 14vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-    header h1 {
-        color: white;
-    }
-
     a {
         cursor: pointer;
     }
 </style>
 
 <body>
-    <header>
-        <h1>Litoral Centro</h1>
+    <header class="p-3">
+        <h2 class="text-center text-white">Litoral Centro de Yucatán</h2>
     </header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8 offset-md-2 col-12 mt-5">
+            <div class="col-md-8 offset-md-2 col-12 mt-4">
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1366 768"
                     style="enable-background:new 0 0 1366 768;" xml:space="preserve" class="w-100">
@@ -516,8 +514,8 @@
             </div>
         </div>
     </div>
-    <footer class="fixed-bottom bg-dark text-white p-3">
-        Información obtenida de: <a href="http://www.yucatan.gob.mx/estado/municipios.php" class="text-info" style="overflow-x: auto;">http://www.yucatan.gob.mx/estado/municipios.php</a>
+    <footer class="fixed-bottom bg-dark text-white p-3" style="overflow-x: auto;">
+        Información obtenida de: <a href="http://www.yucatan.gob.mx/estado/municipios.php" class="text-info" >http://www.yucatan.gob.mx/estado/municipios.php</a>
     </footer>
     <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true">
